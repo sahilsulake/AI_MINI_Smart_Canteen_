@@ -1,0 +1,73 @@
+student,dish,prep,patience,arrival,status,start,tried_start,finish,tried_finish,reason
+Harshal,Sandwich,3,8,0,served,0,,3,,served
+sahil,Burger,7,8,2,served,3,,10,,served
+jash ,Pizza,10,8,4,not_served,,10,,20,patience_over
+Harshal,Sandwich,3,8,0,served,0,,3,,served
+sahil,Burger,7,8,2,served,3,,10,,served
+jash ,Pizza,10,8,4,not_served,,10,,20,patience_over
+Harshal,Sandwich,3,8,0,served,0,,3,,served
+sahil,Burger,7,8,2,served,3,,10,,served
+jash ,Pizza,10,8,4,not_served,,10,,20,patience_over
+Harshal,Sandwich,3,8,0,served,0,,3,,served
+sahil,Burger,7,8,2,served,3,,10,,served
+jash ,Pizza,10,8,4,not_served,,10,,20,patience_over
+Harshal,Pizza,10,8,0,not_served,,0,,10,patience_over
+sahil,Sandwich,3,8,2,not_served,,10,,13,patience_over
+jash ,Maggi,5,8,4,not_served,,13,,18,patience_over
+Harshal,Pizza,10,8,0,not_served,,0,,10,patience_over
+sahil,Sandwich,3,8,2,not_served,,10,,13,patience_over
+jash ,Maggi,5,8,4,not_served,,13,,18,patience_over
+Harshal,Pizza,10,8,0,not_served,,0,,10,patience_over
+sahil,Sandwich,3,8,2,not_served,,10,,13,patience_over
+jash ,Maggi,5,8,4,not_served,,13,,18,patience_over
+Harshal,Pizza,10,8,0,not_served,,0,,10,patience_over
+sahil,Sandwich,3,8,2,not_served,,10,,13,patience_over
+jash ,Maggi,5,8,4,not_served,,13,,18,patience_over
+Harshal,Dish,0,8,0,served,0,,0,,served
+sahil,Dish,0,8,2,served,2,,2,,served
+jash ,Dish,0,8,4,served,4,,4,,served
+vinit,Dish,0,8,6,served,6,,6,,served
+abhi,Dish,0,8,8,served,8,,8,,served
+rutik,Dish,0,8,10,served,10,,10,,served
+Harshal,Dish,0,8,0,served,0,,0,,served
+sahil,Dish,0,8,2,served,2,,2,,served
+jash ,Dish,0,8,4,served,4,,4,,served
+vinit,Dish,0,8,6,served,6,,6,,served
+abhi,Dish,0,8,8,served,8,,8,,served
+rutik,Dish,0,8,10,served,10,,10,,served
+Harshal,Dish,0,8,0,served,0,,0,,served
+sahil,Dish,0,8,2,served,2,,2,,served
+jash ,Dish,0,8,4,served,4,,4,,served
+vinit,Dish,0,8,6,served,6,,6,,served
+abhi,Dish,0,8,8,served,8,,8,,served
+rutik,Dish,0,8,10,served,10,,10,,served
+Harshal,Dish,0,8,0,served,0,,0,,served
+sahil,Dish,0,8,2,served,2,,2,,served
+jash ,Dish,0,8,4,served,4,,4,,served
+vinit,Dish,0,8,6,served,6,,6,,served
+abhi,Dish,0,8,8,served,8,,8,,served
+rutik,Dish,0,8,10,served,10,,10,,served
+Harshal,Pizza,10,10,0,served,0,,10,,served
+sahil,Pasta,6,8,2,not_served,,10,,16,patience_over
+jash ,Sandwich,3,2,4,not_served,,16,,19,patience_over
+vinit,Burger,7,8,6,not_served,,19,,26,patience_over
+abhi,Maggi,5,6,8,not_served,,26,,31,patience_over
+rutik,Pasta,6,5,10,not_served,,31,,37,patience_over
+Harshal,Pizza,10,10,0,served,0,,10,,served
+jash ,Sandwich,3,2,4,not_served,,10,,13,patience_over
+abhi,Maggi,5,6,8,not_served,,13,,18,patience_over
+sahil,Pasta,6,8,2,not_served,,18,,24,patience_over
+rutik,Pasta,6,5,10,not_served,,24,,30,patience_over
+vinit,Burger,7,8,6,not_served,,30,,37,patience_over
+Harshal,Pizza,10,10,0,served,0,,10,,served
+jash ,Sandwich,3,2,4,not_served,,10,,13,patience_over
+rutik,Pasta,6,5,10,not_served,,13,,19,patience_over
+abhi,Maggi,5,6,8,not_served,,19,,24,patience_over
+sahil,Pasta,6,8,2,not_served,,24,,30,patience_over
+vinit,Burger,7,8,6,not_served,,30,,37,patience_over
+Harshal,Pizza,10,10,0,served,0,,10,,served
+jash ,Sandwich,3,2,4,not_served,,10,,13,patience_over
+abhi,Maggi,5,6,8,not_served,,13,,18,patience_over
+rutik,Pasta,6,5,10,not_served,,18,,24,patience_over
+sahil,Pasta,6,8,2,not_served,,24,,30,patience_over
+vinit,Burger,7,8,6,not_served,,30,,37,patience_over

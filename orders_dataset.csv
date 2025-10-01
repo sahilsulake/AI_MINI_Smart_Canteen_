@@ -1,0 +1,51 @@
+import csv
+import os
+import random
+
+# --- Parameters ---
+num_orders = 1200  # number of orders to generate
+num_students = 200  # variety of students
+students = [f"Student{i+1}" for i in range(num_students)]
+dishes = [
+    "Pasta", "Pizza", "Burger", "Sandwich", "Salad", "Soup",
+    "Noodles", "Fried Rice", "Samosa", "Juice", "Coffee", "Tea",
+    "Coke", "Ice Cream", "Pancakes", "Idli", "Dosa", "Vada Pav", "Paratha", "Chaat"
+]
+
+dataset_path = "order_dataset.csv"
+file_exists = os.path.isfile(dataset_path)
+
+with open(dataset_path, "a", newline="") as csvfile:
+    writer = csv.writer(csvfile)
+    
+    # Write header if file doesn't exist
+    if not file_exists:
+        writer.writerow([
+            "student","dish","prep","patience","arrival",
+            "status","start","tried_start","finish","tried_finish","reason"
+        ])
+    
+    for i in range(num_orders):
+        student = random.choice(students)
+        dish = random.choice(dishes)
+        prep = random.randint(2, 20)        # prep time in minutes
+        patience = random.randint(5, 25)    # max waiting time
+        arrival = random.randint(0, 60)     # arrival time in minutes
+        served = random.random() > 0.25     # 75% chance the order is served
+        
+        if served:
+            start = max(0, arrival) + random.randint(0, 5)
+            finish = start + prep
+            writer.writerow([
+                student, dish, prep, patience, arrival,
+                "served", start, "", finish, "", "OK"
+            ])
+        else:
+            tried_start = max(0, arrival) + random.randint(0, 5)
+            tried_finish = tried_start + prep
+            writer.writerow([
+                student, dish, prep, patience, arrival,
+                "not_served", "", tried_start, "", tried_finish, "Late / patience exceeded"
+            ])
+
+print(f"{num_orders} orders added to {dataset_path} ✅")
